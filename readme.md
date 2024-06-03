@@ -15,6 +15,18 @@ JavaScript
 OpenWeatherMap API
 ## Screenshots
 
+Home Page
 
+![Home Page](https://github.com/Shaneel-Reddy/Weather-App/assets/143787702/096ab20d-6a26-46c4-ac7b-a383178f74ca)
 
+Chennai Weather 
 
+![Chennai Weather](https://github.com/Shaneel-Reddy/Weather-App/assets/143787702/65af87ba-4f17-4586-bbb1-e974ddb33d6e)
+
+New York Weather 
+
+![New York Weather](https://github.com/Shaneel-Reddy/Weather-App/assets/143787702/5200e098-1020-4dcd-a491-f17730762794)
+
+Invalid City Name
+
+![Invalid City Name](https://github.com/Shaneel-Reddy/Weather-App/assets/143787702/c712c7f4-6ab7-4d31-b433-eea9b48cab05)

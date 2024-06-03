@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="Enter City Name" spellcheck="false">
+                <button><img src="weather-app-img/images/search.png"></button>
+            </div>
+            <div class="error">
+                <p>Invalid City Name</p>
+            </div>
+            <div class="weather">
+                <img src="weather-app-img/images/rain.png" class="weather-icon">
+                <h1 class="temp">22°c</h1>
+                <h2 class="city">New York</h2>
+                <div class="details">
+                    <div class="col">
+                        <img src="weather-app-img/images/humidity.png">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="weather-app-img/images/wind.png">
+                        <div>
+                            <p class="wind">15 km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fiveday">
+            <div class="error">
+                <p>Invalid City Name</p>
+            </div>
+            <div class="row1">
+                <div class="day">
+                    <h3 class="day-name"></h3>
+                    <img class="day-icon" src="" alt="">
+                    <p class="day-temp"></p>
+                </div>
+                <div class="day">
+                    <h3 class="day-name"></h3>
+                    <img class="day-icon" src="" alt="">
+                    <p class="day-temp"></p>
+                </div>
+                <div class="day">
+                    <h3 class="day-name"></h3>
+                    <img class="day-icon" src="" alt="">
+                    <p class="day-temp"></p>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="day">
+                    <h3 class="day-name"></h3>
+                    <img class="day-icon" src="" alt="">
+                    <p class="day-temp"></p>
+                </div>
+                <div class="day">
+                    <h3 class="day-name"></h3>
+                    <img class="day-icon" src="" alt="">
+                    <p class="day-temp"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
